@@ -108,6 +108,10 @@ Search for `PLACEHOLDER` in the workflow files. These are the sections that need
 - **Binary builds** (`release.yaml`): Add real `go build` or equivalent commands
 - **Release asset uploads** (`release.yaml`): Attach built artifacts to the GitHub release
 
+## Presentation
+
+A slide deck walking through the two-workflow model and demo runs is in the [slides/](slides/) directory. See its [README](slides/README.md) for setup instructions.
+
 ## Shared scripts
 
 - `.github/scripts/parse-version.sh` -- Reads `release.yaml`, validates semver, outputs version components and release branch name
